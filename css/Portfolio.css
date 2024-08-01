@@ -61,3 +61,13 @@ nav ul li a:hover{
 #element1, #element2{
     color: #f006f0;
 }
+hr{
+    margin:48px 84px 32px;
+    border: 0px;
+    height: 0.5px;
+    background-color: #ec8cec;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+}
