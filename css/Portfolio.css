@@ -26,13 +26,22 @@ nav ul li{
     list-style:none ;
     margin: 0px 25px;
 }
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: rgb(94, 91, 91);
+    font-size: 1.4rem;
+}
 .left{
     font-size: 2rem;
 }
 .fistSection{
     display: flex;
     justify-content: space-around;
-    margin: 23px 0px;
+    margin: 50px 0px;
 }
 .fistSection > div{
     width: 30%;
@@ -46,8 +55,8 @@ nav ul li{
     color: #f006f0;
 }
 .rightSection img{
-    width: 90%;
-    
+    width: 550px;
+    height: 350px;
 }
 #element1, #element2{
     color: #f006f0;
