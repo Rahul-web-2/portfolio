@@ -3,10 +3,22 @@
     margin: 0px;
     padding: 0px;
 }
-
 body{
     background-color: black;
     color: white;
+}
+#element1, #element2, #element3{
+    color: #f006f0;
+}
+div hr{
+    width: 150px;
+    margin: 13px 0px 21px 0px;
+}
+
+/* NAV bar */
+header{
+    position: sticky;
+    top: 0;
 }
 nav{
     display: flex;
@@ -19,6 +31,7 @@ nav div{
     font-family: "Edu AU VIC WA NT Hand", cursive;
 }
 nav ul{
+    font-size: 1.5rem;
     justify-content: center;
     display: flex;
 }
@@ -38,6 +51,8 @@ nav ul li a:hover{
 .left{
     font-size: 2rem;
 }
+
+/* Fist Section */
 .fistSection{
     display: flex;
     justify-content: space-around;
@@ -51,14 +66,11 @@ nav ul li a:hover{
     font-size: 2rem;
     margin: 30px 0px;
 }
-.p{
-    color: #f006f0;
-}
 .rightSection img{
     width: 550px;
     height: 350px;
 }
-#element1, #element2{
+.name{
     color: #f006f0;
 }
 hr{
@@ -67,7 +79,49 @@ hr{
     height: 0.5px;
     background-color: #ec8cec;
 }
+
+/* Second Section */
 .secondSection{
+    max-width: 80vw;
+    margin: auto;
+}
+.intro{
+    font-family: "Lora", serif;
+    font-size: 1.6rem;
+    margin-bottom: 32px;
+}
+strong{
+    color: #f358f3;
+}
+.skills h2{
+    margin-bottom: 10px;
+}
+.white{
+    background-color: white;
+    margin-bottom: 20px;
+}
+.fist{
+    background-color: #f358f3;
+    height: 28px;
+    width: 100%; 
+}
+.second{
+    background-color: #f358f3;
+    height: 28px;
+    width: 100%;
+}
+.third{
+    background-color: #f358f3;
+    height: 28px;
+    width: 80%;
+}
+.fourth{
+    background-color: #f358f3;
+    height: 28px;
+    width: 50%;
+}
+
+.thirdSection{
     max-width: 80vw;
     margin: auto;
 }
