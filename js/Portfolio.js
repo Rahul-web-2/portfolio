@@ -6,7 +6,7 @@ var typed = new Typed('#element1', {
 });
 
 var typed = new Typed('#element2', {
-  strings: ['ReactJs', ' AngularJS', 'Next.js'],
+  strings: ['ReactJs', ' AngularJS', 'Next.js', 'Bootstrap'],
   typeSpeed: 50,
   loop: true,
   backDelay: 900,
