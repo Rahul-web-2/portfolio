@@ -87,7 +87,8 @@ nav ul li a:hover {
     font-size: 2rem;
     margin: 30px 0px;
 }
-.leftSection .btn{
+
+.leftSection .btn {
     background: black;
     color: white;
     border: 3px solid white;
@@ -98,7 +99,8 @@ nav ul li a:hover {
     box-shadow: 0 0px 4px 2px rgb(245, 4, 197);
     transition: 0.3s;
 }
-.leftSection .btn:hover{
+
+.leftSection .btn:hover {
     box-shadow: 0 4px 8px 2px rgba(237, 5, 148, 0.699);
     border: 3px solid rgb(45, 43, 43);
 }
@@ -137,28 +139,78 @@ strong {
     margin-bottom: 20px;
 }
 
-.fist {
+.first {
     background-color: #f358f3;
     height: 28px;
     width: 100%;
+    animation: first 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes first {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
 }
 
 .second {
     background-color: #f358f3;
     height: 28px;
     width: 100%;
+    animation: second 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes second {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
 }
 
 .third {
     background-color: #f358f3;
     height: 28px;
     width: 80%;
+    animation: third 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes third {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
 }
 
 .fourth {
     background-color: #f358f3;
     height: 28px;
     width: 50%;
+    animation: fourth 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes fourth {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
 }
 
 /* Third Section */
@@ -191,7 +243,7 @@ h3 {
 }
 
 /*Fourth Section*/
-.fourthSection{
+.fourthSection {
     max-width: 80vw;
     margin: auto;
 }
