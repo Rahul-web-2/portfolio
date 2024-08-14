@@ -137,12 +137,14 @@ strong {
 .white {
     background-color: white;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .first {
     background-color: #f358f3;
     height: 28px;
     width: 100%;
+    border-radius: 10px;
     animation: first 5s;
     animation-iteration-count: infinite;
 
@@ -162,6 +164,7 @@ strong {
     background-color: #f358f3;
     height: 28px;
     width: 100%;
+    border-radius: 10px;
     animation: second 5s;
     animation-iteration-count: infinite;
 }
@@ -180,6 +183,7 @@ strong {
     background-color: #f358f3;
     height: 28px;
     width: 80%;
+    border-radius: 10px;
     animation: third 5s;
     animation-iteration-count: infinite;
 }
@@ -198,6 +202,7 @@ strong {
     background-color: #f358f3;
     height: 28px;
     width: 50%;
+    border-radius: 10px;
     animation: fourth 5s;
     animation-iteration-count: infinite;
 
