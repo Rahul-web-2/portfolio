@@ -15,4 +15,4 @@ var typed = new Typed('#element2', {
 var typed = new Typed('#element3', {
   strings: ['Rahul Lakhchaura'],
   typeSpeed: 30,
-  });
+});
