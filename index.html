@@ -35,7 +35,7 @@
                 </p>
                 <div class="button">
                     <a href="./Resume .pdf" download="Resume">
-                    <button class="btn" type="button">Download CV</button>
+                        <button class="btn" type="button">Download CV</button>
                     </a>
                 </div>
 
@@ -134,10 +134,48 @@
                     </div>
                 </div>
             </div>
+
+            <!--<div class="research">
+                <h2>Research Paper</h2>
+                <hr>
+            </div>-->
         </section>
         <hr>
         <section class="fourthSection" id="contact">
+            <div class="contact me">
+                <h2>Contact Me</h2>
+                <hr>
+                <form action="https://formspree.io/f/mgvwzlab" method="POST" id="form" class="form" autocomplete="off"
+                    onsubmit="validateForm()">
+                    <div class="form-control">
+                        <label for="username">Username</label>
+                        <input type="name" placeholder="florinpop17" id="username" name="Username" required />
+                        <span>Error message</span>
+                    </div>
 
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="example01@gmail.com" id="email" name="Email" required />
+                        <span>Error message</span>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="Number">Phone No.</label>
+                        <input type="tel" placeholder="123456789" id="tel" name="Phone No." required />
+                        <span>Error message</span>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="textarea">Your Message</label>
+                        <textarea name="Message" id="textarea" placeholder="Write your message" required></textarea>
+                    </div>
+                    
+                    <div class="btn">
+                        <button type="submit">Submit</button>
+                    </div>
+                    <p id="my-form-status"></p>
+                </form>
+            </div>
         </section>
     </main>
     <script src="./js/Portfolio.js"></script>
