@@ -146,23 +146,22 @@
             <div class="contact me">
                 <h2>Contact Me</h2>
                 <hr>
-                <form action="https://formspree.io/f/mgvwzlab" method="POST" id="form" class="form" autocomplete="off"
-                    onsubmit="validateForm()">
+                <form action="https://formspree.io/f/mgvwzlab" method="POST" id="form" class="form" autocomplete="off" onsubmit="validateForm()">
                     <div class="form-control">
                         <label for="username">Username</label>
-                        <input type="name" placeholder="florinpop17" id="username" name="Username" required />
+                        <input type="name" placeholder="florinpop17" id="username" name="Username" pattern="[A-Za-z]+"  />
                         <span>Error message</span>
                     </div>
 
                     <div class="form-control">
                         <label for="email">Email</label>
-                        <input type="email" placeholder="example01@gmail.com" id="email" name="Email" required />
+                        <input type="email" placeholder="example01@gmail.com" id="email" name="Email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" />
                         <span>Error message</span>
                     </div>
 
                     <div class="form-control">
                         <label for="Number">Phone No.</label>
-                        <input type="tel" placeholder="123456789" id="tel" name="Phone No." required />
+                        <input type="tel" placeholder="123456789" id="tel" name="Phone No." pattern="[0-9]{10}" />
                         <span>Error message</span>
                     </div>
 
