@@ -141,3 +141,55 @@
         width: 200%;
     }
 }
+
+@media screen and (max-width: 376px) {
+    nav {
+        width: 205%;
+    }
+
+    .fistSection {
+        flex-direction: column-reverse;
+    }
+
+    .fistSection>div {
+        width: 100%;
+        margin: 30px 70px;
+    }
+
+    hr {
+        width: 165%;
+    }
+
+    .intro p {
+        width: 215%;
+    }
+
+    .white {
+        width: 215%;
+    }
+
+    .container {
+        width: 230%;
+    }
+
+    .card hr {
+        margin-left: 50px;
+        width: 40%;
+    }
+
+    .form-control input {
+        width: 150%;
+    }
+
+    .form .btn button {
+        width: 30%;
+    }
+
+    textarea {
+        width: 150%;
+    }
+
+    footer {
+        width: 205%;
+    }
+}
