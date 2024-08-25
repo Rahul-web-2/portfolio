@@ -35,9 +35,9 @@ function applyInitialState() {
   const moreText = document.getElementById("moreText");
   const btnText = document.getElementById("readMoreBtn");
 
-  if (window.innerWidth > 426) {
+  if (window.innerWidth >= 426) {
     moreText.style.display = "inline";
-    btnText.style.display = "none";
+    btnText.style.display = "block";
   } else {
     moreText.style.display = "none";
     btnText.style.display = "block";
