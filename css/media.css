@@ -144,7 +144,7 @@
 
 @media screen and (max-width: 376px) {
     nav {
-        width: 205%;
+        width: 210%;
     }
 
     .fistSection {
@@ -190,6 +190,6 @@
     }
 
     footer {
-        width: 205%;
+        width: 210%;
     }
 }
