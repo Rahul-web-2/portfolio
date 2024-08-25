@@ -79,7 +79,7 @@ nav ul li a:hover {
 }
 
 .fistSection>div {
-    width: 36%;
+    width: 37%;
 }
 
 .leftSection {
@@ -124,6 +124,12 @@ nav ul li a:hover {
     font-family: "Lora", serif;
     font-size: 1.6rem;
     margin-bottom: 32px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#moreText {
+    display: none;
 }
 
 strong {
@@ -224,22 +230,30 @@ strong {
     margin: auto;
 }
 
+.container {
+    padding: 2px 16px;
+    display: flex;
+}
+
+.container p{
+    margin: 10px;
+    padding: 10px;
+}
 .card {
-    display: table-cell;
     box-shadow: 0 4px 8px 2px rgb(245, 4, 197);
     transition: 0.3s;
     width: 25%;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .card:hover {
     box-shadow: 0 10px 20px 1px rgba(237, 5, 148, 0.699);
 }
 
-.container {
-    padding: 2px 16px;
-}
 
 h3 {
+    margin: 5px;
     text-align: center;
 }
 
@@ -329,12 +343,12 @@ h3 {
 }
 
 textarea {
-    padding: 1.5rem 2rem;
     border: 0.1rem solid #c9c9c9;
     border-radius: 5px;
     font-size: 1.6rem;
     font-family: "work sans";
-    width: 100%;
+    width: 50%;
+    height: 133px;
 }
 
 /* Footer */

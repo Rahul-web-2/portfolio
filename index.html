@@ -52,25 +52,28 @@
                 <h2>ABOUT</h2>
                 <hr>
                 <div class="intro">
-                    <p>My name is <span id="element3"></span>.I have a strong passion for technology and a keen
-                        interest in
-                        webdevelopment. My hobbies include listening to music, playing chess, and watching movies, which
-                        provide a balance to my academic pursuits and keep me creatively stimulated.In terms of my
-                        strengths, I am punctual, self - motivated, and a quick learner.These qualities have
-                        consistently
-                        helped me excel in my studies and personal projects.Additionally, I have a talkative nature,
-                        which has significantly improved my communication skills and expanded my knowledge through
-                        engaging
-                        conversations and discussions.I possess strong technical skills in <strong>HTML, CSS,
-                            JavaScript,
-                            ReactJS, and Java</strong>.My ultimate career goal is to become a proficient web developer.I
-                        ameager to secure a position in a reputable company where I can apply my skills, contribute to
-                        exciting
-                        projects, and continuously learn from industry professionals.I believe that working in a dynamic
-                        and challenging environment will help me achieve my professional aspirations and make a
-                        meaningful impact in the
-                        field of web development.
+                    <p>My name is <span id="element3"></span>. I have a strong passion for technology and a keen
+                        interest in web development. My hobbies include listening to music, playing chess, and watching
+                        movies,
+                        which provide a balance to my academic pursuits and keep me creatively stimulated. In terms of
+                        my
+                        strengths, I am punctual, self-motivated, and a quick learner.
+                        <span id="moreText">
+                            These qualities have consistently helped me excel in my studies and personal projects.
+                            Additionally, I have a talkative nature,
+                            which has significantly improved my communication skills and expanded my knowledge through
+                            engaging
+                            conversations and discussions. I possess strong technical skills in <strong>HTML, CSS,
+                                JavaScript, ReactJS, and Java</strong>. My ultimate career goal is to become a
+                            proficient web developer. I am eager to secure a position in a reputable company where I can
+                            apply my skills, contribute to
+                            exciting projects, and continuously learn from industry professionals. I believe that
+                            working in a dynamic
+                            and challenging environment will help me achieve my professional aspirations and make a
+                            meaningful impact in the field of web development.
+                        </span>
                     </p>
+                    <button id="readMoreBtn" onclick="toggleText()">Read More</button>
                 </div>
             </div>
             <div class="skills">
@@ -99,41 +102,41 @@
             <div class="projects">
                 <h2>PROJECTS</h2>
                 <hr>
-                <div class="card">
-                    <h3>Daily-News</h3>
-                    <hr>
-                    <div class="container">
+                <div class="container">
+                    <div class="card">
+                        <h3>Daily-News</h3>
+                        <hr>
                         <p>This project allows users to view the top headlines and latest news across various categories
                             such as Sports, Business, and World. The latest news is fetched from the NEWS API and
                             displayed dynamically on the website.</p>
                     </div>
-                </div>
-                <div class="card">
-                    <h3>Text-conveter</h3>
-                    <hr>
-                    <div class="container">
+
+                    <div class="card">
+                        <h3>Text-conveter</h3>
+                        <hr>
                         <p>This project allows users to manipulate the text written in the text area using various
                             features and functionalities. The technologies used in this project include React.js, and
                             CSS. Text
                             Manipulation: Users can perform various text transformations such as changing the case.</p>
                     </div>
-                </div>
-                <div class="card">
-                    <h3>Login-page</h3>
-                    <hr>
-                    <div class="container">
+
+
+                    <div class="card">
+                        <h3>Login-page</h3>
+                        <hr>
                         <p>This project is a simple login page designed to authenticate users. It utilizes HTML5 and CSS
                             for the structure and styling of the page, JavaScript for client-side validation.</p>
                     </div>
-                </div>
-                <div class="card">
-                    <h3>Musical-kit</h3>
-                    <hr>
-                    <div class="container">
+
+
+                    <div class="card">
+                        <h3>Musical-kit</h3>
+                        <hr>
                         <p>This project allows users to play various musical instrument sounds, such as drums and piano,
                             through an interactive web interface. It is designed to be user-friendly and engaging,
                             making it easy for anyone to play and enjoy music directly from their browser.</p>
                     </div>
+
                 </div>
             </div>
 
@@ -147,16 +150,19 @@
             <div class="contact me">
                 <h2>Contact Me</h2>
                 <hr>
-                <form action="https://formspree.io/f/mgvwzlab" method="POST" id="form" class="form" autocomplete="off" onsubmit="validateForm()">
+                <form action="https://formspree.io/f/mgvwzlab" method="POST" id="form" class="form" autocomplete="off"
+                    onsubmit="validateForm()">
                     <div class="form-control">
                         <label for="username">Username</label>
-                        <input type="name" placeholder="florinpop17" id="username" name="Username" pattern="[A-Za-z]+"  />
+                        <input type="name" placeholder="florinpop17" id="username" name="Username"
+                            pattern="[A-Za-z]+" />
                         <span>Error message</span>
                     </div>
 
                     <div class="form-control">
                         <label for="email">Email</label>
-                        <input type="email" placeholder="example01@gmail.com" id="email" name="Email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" />
+                        <input type="email" placeholder="example01@gmail.com" id="email" name="Email"
+                            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" />
                         <span>Error message</span>
                     </div>
 
@@ -168,8 +174,8 @@
 
                     <div class="form-control">
                         <label for="textarea">Your Message</label>
-                        <textarea name="Message" id="textarea" placeholder="Write your message" required></textarea>
                     </div>
+                    <textarea name="Message" id="textarea" placeholder="Write your message" required></textarea>
 
                     <div class="btn">
                         <button type="submit">Submit</button>

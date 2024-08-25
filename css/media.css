@@ -1,3 +1,159 @@
-@media screen and (max-width: 300px) {
-  
+@media screen and (max-width: 1024px) {
+    nav {
+        width: 120%;
+    }
+
+    hr {
+        width: 102%;
+    }
+
+    .leftSection p {
+        width: 142%;
+    }
+
+    .intro p {
+        width: 120%;
+    }
+
+    .white {
+        width: 120%;
+    }
+
+    .container {
+        width: 120%;
+    }
+
+    .card hr {
+        margin-left: 40px;
+    }
+
+    .form-control input {
+        width: 70%;
+    }
+
+    textarea {
+        width: 70%;
+    }
+
+    footer {
+        width: 120%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        width: 140%;
+    }
+
+    hr {
+        width: 115%;
+    }
+
+    .leftSection p {
+        width: 185%;
+    }
+
+    .rightSection img {
+        margin-left: 60px;
+    }
+
+    .intro p {
+        width: 140%;
+    }
+
+    .white {
+        width: 140%;
+    }
+
+    .container {
+        width: 140%;
+    }
+
+    .card hr {
+        margin-left: 30px;
+    }
+
+    .form-control input {
+        width: 80%;
+    }
+
+    .form .btn button {
+        width: 15%;
+    }
+
+    textarea {
+        width: 80%;
+    }
+
+    footer {
+        width: 140%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    nav {
+        width: 200%;
+    }
+
+    .fistSection {
+        flex-direction: column-reverse;
+    }
+
+    .fistSection>div {
+        width: 100%;
+        margin: 30px 70px;
+    }
+
+    hr {
+        width: 165%;
+    }
+
+    .intro p {
+        width: 215%;
+    }
+
+    #readMoreBtn {
+        background-color: #007BFF;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+    #readMoreBtn:hover {
+        background-color: #0056b3;
+    }
+
+    .white {
+        width: 215%;
+    }
+
+    .container {
+        width: 215%;
+    }
+
+    .card hr {
+        margin-left: 50px;
+        width: 40%;
+    }
+
+    .form-control input {
+        width: 150%;
+    }
+
+    .form .btn button {
+        width: 30%;
+    }
+
+    textarea {
+        width: 150%;
+    }
+
+    footer {
+        width: 200%;
+    }
 }
