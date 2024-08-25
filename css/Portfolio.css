@@ -128,10 +128,6 @@ nav ul li a:hover {
     text-justify: inter-word;
 }
 
-#moreText {
-    display: none;
-}
-
 strong {
     color: #f358f3;
 }
