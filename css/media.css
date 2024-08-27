@@ -117,11 +117,17 @@
     }
 
     .container {
-        width: 215%;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.9rem;
+    }
+
+    .card{
+        width: 150%;
     }
 
     .card hr {
-        margin-left: 50px;
+        margin-left: 185px;
         width: 40%;
     }
 
@@ -175,7 +181,7 @@
     }
 
     .card{
-        width: 105%;
+        width: 150%;
     }
 
     .card hr {
