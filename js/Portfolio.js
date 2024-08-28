@@ -16,3 +16,22 @@ var typed = new Typed('#element3', {
   strings: ['Rahul Lakhchaura'],
   typeSpeed: 30,
 });
+
+var icon = document.getElementById("icon");
+var whiteElements = document.getElementsByClassName("white");
+
+icon.onclick = function () {
+  document.body.classList.toggle("light-theme");
+
+  if (document.body.classList.contains("light-theme")) {
+    icon.src = "./img/moon.png";
+    for (var i = 0; i < whiteElements.length; i++) {
+      whiteElements[i].style.backgroundColor = "black";
+    }
+  } else {
+    icon.src = "./img/sun.png";
+    for (var i = 0; i < whiteElements.length; i++) {
+      whiteElements[i].style.backgroundColor = "white";
+    }
+  }
+};

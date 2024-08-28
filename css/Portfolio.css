@@ -9,6 +9,12 @@ body {
     color: white;
 }
 
+body.light-theme {
+    animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: white;
+    color: black;
+}
+
 #element1,
 #element2,
 #element3 {
@@ -35,7 +41,7 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     height: 70px;
     background-color: rgb(21, 19, 19);
@@ -68,7 +74,15 @@ nav ul li a:hover {
 }
 
 .left {
+    color: white;
+    font-family: "Cedarville Cursive", cursive;
     font-size: 2rem;
+    margin-right: 40%;
+}
+
+#icon {
+    width: 30px;
+    cursor: pointer;
 }
 
 /* Fist Section */
@@ -231,10 +245,11 @@ strong {
     display: flex;
 }
 
-.container p{
+.container p {
     margin: 10px;
     padding: 10px;
 }
+
 .card {
     box-shadow: 0 4px 8px 2px rgb(245, 4, 197);
     transition: 0.3s;
@@ -349,6 +364,7 @@ textarea {
 
 /* Footer */
 footer {
+    color: white;
     display: flex;
     height: 70px;
     margin-top: 10px;
