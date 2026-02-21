@@ -12,7 +12,7 @@ A modern personal portfolio website showcasing my projects, skills, resume, and 
 
 ## 🌐 Live Demo
 
-🚀 **Live Site:** https://portfolio-gamma-ruby-78.vercel.app
+🚀 **Live Site:** https://portfolio2-puce-nu-84.vercel.app/
 
 ---
 
